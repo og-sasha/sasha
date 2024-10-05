@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x:hidden;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/styles.css">
+
+  <title>$SASHA</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+	
+</head>
+<body">
+
+<header class="header">
+  <div class="overlay has-fade"></div>
+
+  <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+    <a href="https://sasha.world" class="header__logo">
+      <img src="images/sashalogo.svg" alt="bbwoof">
+    </a>
+
+    <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+
+
+    <!-- <button type="button">Request Invite</button> -->
+    <a href="https://solscan.io/token/Eim561iHxTHSL6vU9YvrzweDykAqeN9iSYW84FEvpump" target="_blank" class="button header__cta hide-for-mobile"><b>GET $SASHA</b></a>
+
+  </nav>
+
+<body2>
+    <div class="banner">
+        <div class="scrolling-text" id="scrollingText"></div>
+    </div>
+    <script>
+        const text = "$SASHA $SASHA $SASHA $SASHA $SASHA $SASHA $SASHA $SASHA";
+        const scrollingText = document.getElementById('scrollingText');
+        scrollingText.innerHTML = text.repeat(1); // Repeat the text for a longer scroll
+    </script>
+</body2>
+
+
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__image"></div>
+  <div class="hero__text container--pall">
+    <h1>
+      Ready for an epic journey with Satoshi's Cat SASHA
+    </h1>
+
+	<p>
+Legendary Adorable Meme in Solana <br>
+Sasha is agent of Entropy!
+	</p>
+
+
+
+	  
+  <!--   <a href="#" class="button hero__cta">Get Rick Rolled</a> -->
+    <a href="https://t.me/" target="_blank" class="button hero__cta">Join us in Telegram</a>
+  </div>
+  </div>
+</section>
+
+<section class="feature">
+  
+  <div class="feature__content container container--pall">
+
+    <div class="feature__intro">
+      <h2>A Fair launch meme token on Solana!</h2>
+      <p>Sasha is adorable cat of Len Sassaman (aka. Rabbi) . <br>
+People are saying Sassaman is the real Satashi Nakamoto creator of $BITCOIN. <br> Sasha is the one helping Sassaman making bitcoin cult.</p>
+    </div>
+      <div class="feature__grid">
+  
+        <div class="feature__item">
+          <div class="feature__title"><center>BUCKLE UP</center></div>
+          <div class="feature__description">
+            <center>MEOWWW MEOWWW MEOWWW MEOWWW</center>
+          </div>
+        </div>
+  
+        <div class="feature__item">
+          <div class="feature__title"><center>BE POSITIVE</center></div>
+          <div class="feature__description">
+            <center>MEOWWW MEOWWW MEOWWW MEOWWW<center>
+          </div>
+        </div>
+  
+        <div class="feature__item">
+          <div class="feature__title"><center>HOLD TIGHT</center></div>
+          <div class="feature__description">
+            <center>MEOWWW MEOWWW MEOWWW MEOWWW</center>
+          </div>
+        </div>
+  
+        <div class="feature__item">
+          <div class="feature__title"><center>WE STRONG</center></div>
+          <div class="feature__description">
+            <center>MEOWWW MEOWWW MEOWWW MEOWWW</center>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+</section>
+
+<section class="articles">
+
+
+
+<div class="article__content container container--pall">
+    <center>
+        <b><h1>$SASHA CONTRACT ADDRESS:</h1></b>
+        <b><h4 id="contract-address">Eim561iHxTHSL6vU9YvrzweDykAqeN9iSYW84FEvpump</h4></b>
+        <button onclick="copyToClipboard()">Copy Address</button>
+    </center>
+</div>
+
+<script>
+    function copyToClipboard() {
+        const address = document.getElementById('contract-address').innerText;
+        navigator.clipboard.writeText(address).then(() => {
+            alert('Address copied to clipboard!');
+        });
+    }
+</script>
+
+</section>
+
+<footer class="footer">
+  <div class="container">
+
+    <a class="footer__logo" href="#">
+      <img src="images/sashalogo.svg">
+    </a>
+  
+    <div class="footer__social">
+      <a href="https://x.com/" target="_blank">
+<img src="images/twitter-154-svgrepo-com.svg" width="30" height="30">
+	</a>
+      <a href="https://t.me/" target="_blank">
+<img src="images/telegram-svgrepo-com.svg" width="30" height="30">
+	</a>
+      <a href="https://github.com/" target="_blank">
+<img src="images/github-142-svgrepo-com.svg" width="30" height="30">    
+	</a>
+    </div>
+
+      <div class="footer__cta">
+Sasha wants you to be his Companion!.  
+    </div>
+
+
+
+
+      <div class="footer__copyright">
+        &copy; 2024 Sasha Made with ♥️ Love!
+      </div>
+    
+  </div>
+
+</footer>
+  <script src="app/js/script.js"></script>
+</body>
+</html>
